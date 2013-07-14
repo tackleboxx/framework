@@ -13,26 +13,10 @@ Copyright 2013, Josh Cope
   
   
 /* ---------------------------------NAV ------------------------------------------------> */
-nav ul {
-	width: 100%; /* 410px */
-	margin: 0 auto;
-	list-style-type: none;
-	padding: 0;
-	float: right;
-	overflow: hidden;
-}
 nav li {
-	width: 14%;
-	float: left;
-	border-left: #fff solid 1px;
+	display:inline;
 }
-nav a {
-	display: block;
-	height: 75px;
-	line-height: 75px;
-	text-align: center;
-	color: #000;
-}
+
 /* ---------------------------------Form ------------------------------------------------> */
 form {
 	width:50%;
